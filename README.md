@@ -6,12 +6,14 @@
 <!-- badges: start -->
 
 [![CRAN](https://img.shields.io/cran/v/buildr?label=CRAN)](https://CRAN.R-project.org/package=buildr)
+[![buildr status
+badge](https://netique.r-universe.dev/badges/buildr)](https://netique.r-universe.dev)
 [![DESCRIPTION
 version)](https://img.shields.io/github/r-package/v/netique/buildr?label=devel)](https://github.com/netique/buildr)
 [![R CMD
 Check](https://img.shields.io/github/workflow/status/netique/buildr/R-CMD-check)](https://github.com/netique/buildr/actions?query=workflow%3AR-CMD-check)
 [![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/buildr)](https://cranlogs.r-pkg.org/)
-[![Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing/)
 
 <!-- badges: end -->
 
@@ -63,8 +65,8 @@ occasionally.
 
 1.  First, call `init()`, which initializes a special `Makefile` in
     project root with automatically discovered build scripts that share
-    a common prefix and separator (“build” and "\_“, by default).
-    `Makefile` is a standard”recipe book" which tells the software how
+    a common prefix and separator (“build” and “\_“, by default).
+    `Makefile` is a standard”recipe book” which tells the software how
     it should be compiled. It’s so general it can serve perfectly for
     our purposes. See the [documentation for GNU
     Make](https://www.gnu.org/software/make/manual/html_node/) or read
